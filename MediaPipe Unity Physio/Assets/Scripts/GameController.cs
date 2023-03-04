@@ -6,9 +6,26 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    [Header("Object References")]
     public TMP_Text distanceText;
     public GameObject handR;
     public GameObject handL;
+    public LineConnector lineCon;
+
+    [Header("Stretch Distances")]
+    public float unstretchedDistance = 40f;
+    public float stretchedDistance = 120f;
+
+    [Header("Score Counter")]
+    public float score = 0f;
+    public TMP_Text scoreText;
+
+
+
+    private float distance;
+
+    private bool isStretched;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +35,24 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(handL.transform.position, handR.transform.position);
+        distance = Vector3.Distance(handL.transform.position, handR.transform.position);
         distanceText.text = distance.ToString();
+        
+    }
+
+    private void FixedUpdate()
+    {
+        if (isStretched && distance < unstretchedDistance)
+        {
+            isStretched = false;
+            score++;
+            scoreText.text = "Score: " + score;
+        }
+        
+        if (!isStretched && distance > stretchedDistance)
+        {
+            isStretched = true;
+        }
+        lineCon.ChangeColor(distance, stretchedDistance + 50);
     }
 }
