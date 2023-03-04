@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class GameController : MonoBehaviour
+public class ShoulderStretchGameController : MonoBehaviour
 {
     [Header("Object References")]
     public TMP_Text distanceText;
+    public ScorePopup scorePopup;
+
     public GameObject handR;
     public GameObject handL;
     public LineConnector lineCon;
@@ -47,6 +49,8 @@ public class GameController : MonoBehaviour
             isStretched = false;
             score++;
             scoreText.text = "Score: " + score;
+            scorePopup.PopUpText();
+            
         }
         
         if (!isStretched && distance > stretchedDistance)
