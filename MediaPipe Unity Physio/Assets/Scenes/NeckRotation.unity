@@ -1322,6 +1322,11 @@ PrefabInstance:
       objectReference: {fileID: 4800000, guid: d684c6d125278d05fbb1904ee5103f3a, type: 3}
     - target: {fileID: 5850198979010014858, guid: 24d349d9c78db0f3d94d4657029f4c5e,
         type: 3}
+      propertyPath: _maskTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6e5f65b053955ab458b5c136b4b6470f, type: 3}
+    - target: {fileID: 5850198979010014858, guid: 24d349d9c78db0f3d94d4657029f4c5e,
+        type: 3}
       propertyPath: _maxConfidence
       value: 0.1
       objectReference: {fileID: 0}
