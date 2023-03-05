@@ -3624,7 +3624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceText: {fileID: 0}
   scorePopup: {fileID: 0}
-  minRotation: 70
+  minRotation: 40
   score: 0
   scoreText: {fileID: 871370664}
   angleText: {fileID: 926051183}
