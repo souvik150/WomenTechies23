@@ -3621,10 +3621,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97321eb862b6a8743ab524815510c74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceText: {fileID: 0}
+  scorePopup: {fileID: 0}
+  minRotation: 70
+  score: 0
+  scoreText: {fileID: 871370664}
+  angleText: {fileID: 926051183}
   PoseDataHolder: {fileID: 1748687518}
   nosePosition: {x: 0, y: 0, z: 0}
   leftEarPosition: {x: 0, y: 0, z: 0}
   rightEarPosition: {x: 0, y: 0, z: 0}
+  directionVector: {x: 0, y: 0, z: 0}
+  angle: 0
 --- !u!4 &2121023343
 Transform:
   m_ObjectHideFlags: 0
