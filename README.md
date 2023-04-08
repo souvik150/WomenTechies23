@@ -7,7 +7,8 @@ Rcade differs from traditional fitness apps by focusing on exercises that specif
 ## Shoulder Blade Stretch
 The objective of this excercise is to stretch the shoulder blades, to relieve shoulder pain. The player gets a point for each rep
 ![image](https://user-images.githubusercontent.com/76583147/230734292-92a95fe0-f62c-44d9-8581-efeccd131cce.png)
-![image](https://user-images.githubusercontent.com/76583147/230734295-2527f37d-2796-4743-9426-e43ad32bd579.png)
 ![image](https://user-images.githubusercontent.com/76583147/230734298-d5621526-9c75-426c-b0cf-2f9479bd7daa.png)
+![image](https://user-images.githubusercontent.com/76583147/230734295-2527f37d-2796-4743-9426-e43ad32bd579.png)
+
 
 
