@@ -10,4 +10,10 @@ The objective of this excercise is to stretch the shoulder blades, to relieve sh
 ![image](https://user-images.githubusercontent.com/76583147/230734295-2527f37d-2796-4743-9426-e43ad32bd579.png)
 ![image](https://user-images.githubusercontent.com/76583147/230734298-d5621526-9c75-426c-b0cf-2f9479bd7daa.png)
 
+## Neck Rotation
+The objective of this excercise is to stretch the neck muscles, to relieve neck pain
+![image](https://user-images.githubusercontent.com/76583147/230736258-d8496f12-c101-4211-8d9d-02169726b0d3.png)
+
+## Hip Flexion
+The objective of this excercise is to stretch the hip flexors. The player must lift their knee to be at a right angle and then back down 
 
